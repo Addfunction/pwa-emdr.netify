@@ -1,5 +1,4 @@
- path: .github/workflows/deploy.yml
- name: Deploy to Netlify
+name: Deploy to Netlify
 
 on:
   push:
