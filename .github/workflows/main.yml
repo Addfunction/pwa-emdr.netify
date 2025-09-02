@@ -1,6 +1,5 @@
-📄 Filbane: .github/workflows/deploy.yml
-📥 Innhold:
-name: Deploy to Netlify
+ path: .github/workflows/deploy.yml
+ name: Deploy to Netlify
 
 on:
   push:
