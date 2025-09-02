@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  color: white;
+  font-family: sans-serif;
+}
+#dot {
+  position: absolute;
+  top: 50%;
+  background-color: blue;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+#controls {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+#info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  max-width: 300px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
